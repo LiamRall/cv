@@ -1,0 +1,67 @@
+@font-face {
+    font-family: ComputerModern;
+    src: url(computer-modern/cmunrm.ttf);
+}
+
+@font-face {
+    font-family: ComputerModernBold;
+    src: url(computer-modern/cmunui.ttf);
+}
+
+@font-face {
+    font-family: ComputerModernItalic;
+    src: url(computer-modern/cmunss.ttf);
+}
+
+html, body {
+    font-family: ComputerModern, sans-serif;
+    height: 100%;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    flex-direction: column;
+  }
+
+.title{
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: ComputerModernBold, sans-serif;
+  }
+
+.subtitle{
+    font-size: 16px;
+  }
+
+.content{
+    padding: 1rem 2.5rem;
+}
+
+.heading1 {
+    font-size: 20px;
+    text-transform: capitalize;
+    border-bottom: 1px solid;
+    font-weight: bold;
+    font-family: ComputerModernBold, sans-serif;
+}
+
+.entry{
+    margin: 18px 0;
+}
+
+.place-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0;
+}
+
+ul {
+    padding: 0 2rem;
+}
