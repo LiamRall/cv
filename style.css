@@ -21,6 +21,8 @@ html, body {
     text-justify: inter-word;
   }
 
+
+
 .header {
     display: flex;
     justify-content: center;
@@ -67,6 +69,7 @@ ul {
     padding: 0 2rem;
 }
 
+
 @media screen and (min-width: 600px) {
     html, body {
         font-size: 1rem;
@@ -81,3 +84,4 @@ ul {
         padding: 1rem 20rem;
     }
   }
+
