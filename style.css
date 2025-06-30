@@ -85,3 +85,18 @@ ul {
     }
   }
 
+  .print-only {
+    display: none;
+  }
+
+  @media print {
+    .print-only {
+        display: inline;
+    }
+    
+    a {
+        color: black !important;
+        text-decoration: none !important;
+    }
+  }
+

@@ -29,6 +29,7 @@
     <div class="subtitle">
         <a href="https://www.linkedin.com/in/liamrall" target="_blank"
             rel="noopener noreferrer">www.linkedin.com/in/liamrall</a>
+        <span class="print-only"> ◇ <span id="email-placeholder"></span></span>
     </div>
 </div>
 
@@ -331,6 +332,12 @@
     </div>
 </div>
 
+<script>
+// Construct email to prevent scraping
+const user = 'liam.rall';
+const domain = 'ymail.com';
+document.getElementById('email-placeholder').textContent = user + '@' + domain;
+</script>
 </body>
 
 </html>
